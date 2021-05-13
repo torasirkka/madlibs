@@ -48,7 +48,7 @@ def show_madlib_form():
     """Ask Player if they want to play a game"""
 
     if request.args.get("play") == "no":
-        return render_template_string("goodbye.html")
+        return render_template("goodbye.html")
 
     else:
         return render_template("game.html")
