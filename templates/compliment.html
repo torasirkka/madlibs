@@ -6,10 +6,12 @@
 </head>
 <body>
     Hi {{ person }}! I think you're {{ compliment }}!
+      <br>
     Would you like to play a game with me?
     <form action = "/game">
-    <input type= "radio" option= "Yes" name="play"> <label>Yes</label>
-    <input type = "radio" option= "No" name="play"> <label>No</label>
+      <input type= "radio" value= "yes" name="play"> <label>Yes</label>
+      <input type = "radio" value= "no" name="play"> <label>No</label><br>
+      <input type="submit">
     </form>
 </body>
 </html>
